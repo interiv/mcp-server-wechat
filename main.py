@@ -19,6 +19,5 @@ def send_files(files_path:str|list,nick_name:str):
     wx.SendFiles(files_path,nick_name)
     return "ok"
 
-send_text("你好","群1")
 
 my_mcp.run()
